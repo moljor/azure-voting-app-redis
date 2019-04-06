@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front2
-        image: microsoft/azure-vote-front2:v1
+        image: mojoazcontainerreg.azurecr.io/azure-vote-front2:v1
         ports:
         - containerPort: 80
         resources:
