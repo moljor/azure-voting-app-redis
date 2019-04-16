@@ -55,6 +55,7 @@ if not r.get(button2): r.set(button2,0)
 if not r.get(button3): r.set(button3,0)
 
 @app.route('/', methods=['GET', 'POST'])
+@app.route('/custom', methods=['GET', 'POST'])
 def index():
 
     if request.method == 'GET':
